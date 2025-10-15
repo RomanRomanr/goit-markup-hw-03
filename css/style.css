@@ -34,6 +34,7 @@ body {
   font-family: var(--font-family);
   color:#434455;
   background-color: #FFFFFF;
+
 }
 .logo{
   font-family: var(--second-family);
@@ -46,6 +47,7 @@ body {
   text-decoration: none;
   display: flex;
   align-items: center;
+  margin-right: 76px;
 }
 .logo-span{
   color: var(--navy-blue);
@@ -55,8 +57,8 @@ color: var(--white);
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
-
 text-align: center;
+margin-bottom: 48px;
 }
 
 .about-our-work-title{
@@ -80,9 +82,12 @@ color: var(--navy-blue);
   color: var(--ocean);
 }
 .contact-info{
-  display: flex;
-  align-items: center;
-  font-style: normal
+  font-style: normal;
+}
+.contact-info ul{
+    display: flex;
+  flex-direction: row;
+  gap: 40px;
 }
 .nav-link-contact{
 font-weight: 400;
@@ -93,6 +98,7 @@ color: var(--slate);
 }
 .title{
   background-color: var(--navy-blue);
+  padding: 188px 472px;
 }
 .title-button{
   background-color: var(--iris);
@@ -103,6 +109,15 @@ color: var(--slate);
   font-size: 16px;
   line-height: 1.5;
   cursor: pointer;
+  align-self: center;
+  border-radius: 4px;
+  margin: 0 auto;
+/* padding: 16px 32px; */
+width: 169px;
+height: 56px;
+border: none;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
 }
 .title-button:hover{
 	  background-color: var(--ocean);
@@ -191,15 +206,25 @@ gap: 40px;
 }
 .container { 
 max-width: 1158px;
-padding-left:  24px;
-padding-right:  24px;
+/* padding-left:  156px;
+padding-right:  156px;
 margin-left:  auto;
-margin-right:  auto;
+margin-right:  auto; */
+padding: 0 15px;
+margin: 0 auto;
 }
 header{
   border-bottom: 1px solid var(--cornflower);
-  display: flex;
+ 
+}
+.flex-position{
+   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
+.container-flex{
+  display: flex;
+  flex-direction: column;
+}
+
