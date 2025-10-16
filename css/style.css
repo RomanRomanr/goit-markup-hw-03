@@ -181,7 +181,7 @@ color: var(--slate);
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue);
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .about-our-portfolio-last-title{
   font-weight: 500;
@@ -189,7 +189,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--navy-blue);
-padding-bottom: 8px;
+margin-bottom: 8px;
 }
 .about-our-portfolio-description{
   font-weight: 400;
@@ -200,6 +200,7 @@ color: var(--slate);
 }
 .footer{
   background: var(--navy-blue);
+  padding: 100px 0;
 }
 .footer-description{
   font-weight: 400;
@@ -278,19 +279,34 @@ margin: 0 auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 24px;
+  row-gap: 48px;
   justify-content: space-between;
 }
-.about-our-portfolio_list li{
+.about-our-portfolio_list_elements{
   width: calc((100% - 48px) / 3);
   
 }
 .second-portfolio-box{
-  padding: 32px 0 32px 16px;
+  padding: 32px 16px;
   border-bottom: 1px solid var(--cornflower);
 border-left: 1px solid var(--cornflower);
 border-right: 1px solid var(--cornflower);
 }
 footer a{
   margin-bottom: 16px;
+}
+.about-worker-info{
+  padding: 32px 0;
+
+}
+.margin_title{
+  margin-bottom: 8px;
+  text-align: center;
+}
+.footer-logo{
+  display: inline-block
+}
+footer .container{
+  display: flex;
+  flex-direction: column;
 }
