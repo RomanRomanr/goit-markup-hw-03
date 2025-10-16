@@ -258,7 +258,7 @@ margin: 0 auto;
 .our-work-box_style_list{
   width: calc((100% - 72px) / 4);
 }
-.visually-hidden {
+.visually-hidden{
  position: absolute;
  width: 1px;
  height: 1px;
@@ -309,7 +309,6 @@ footer a{
 .footer-logo{
   display: inline-block
 }
-/* footer .container{
-  display: flex;
-  flex-direction: column;
-} */
+.margin_title-second_section{
+  margin-bottom: 8px;
+}
